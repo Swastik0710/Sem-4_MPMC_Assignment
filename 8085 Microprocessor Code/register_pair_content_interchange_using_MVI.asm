@@ -8,7 +8,7 @@ MVI E, 55H      ; Load the value 55H in register C
 
 ;  Interchange the values of registers B, C, D and E
 MOV A, B        ; Move the content of register B to the accumulator (A) {A = 22H}
-MOV B, D        ; Move the content of register D to register  {B = 44H}
+MOV B, D        ; Move the content of register D to register B {B = 44H}
 MOV D, A        ; Move the content of the accumulator (A) to register D {D = 22H}
 MOV A, C        ; Move the content of register C to the accumulator (A) {A = 33H}
 MOV C, E        ; Move the content of register E to register C {C = 55H}
