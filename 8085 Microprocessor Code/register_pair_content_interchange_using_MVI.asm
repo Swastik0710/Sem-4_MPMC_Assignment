@@ -1,7 +1,7 @@
 ; Write a program to interchange the contents of register pair (B, C) and (D, E) using MVI.
 
 ; Initial contents of registers B, C, D and E
-MVI B, 22H      ; Load the value 22HH in register B
+MVI B, 22H      ; Load the value 22H in register B
 MVI C, 33H      ; Load the value 33H in register C
 MVI D, 44H      ; Load the value 44H in register B
 MVI E, 55H      ; Load the value 55H in register C
