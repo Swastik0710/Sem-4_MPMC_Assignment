@@ -13,3 +13,5 @@
 skip:   MVI A, FFH      ; Load the value FFH in the accumulator (A)
 go:     STA 8500H       ; Store the value in the memory location 8500H of the accumulator (A) {8500H = value at 9045H}
         RST 1           ; Reset the program
+
+; End of code
