@@ -1,4 +1,4 @@
-; Write a program to exchange content of register R2 with the content of the accumulator (A).
+; Write a program to exchange content of register R2 with the content of the accumulator (A) using XCH.
 
 MOV A, #11H      ; Load the value 11H to the accumulator (A) {A = 11H}
 MOV R2, #22H     ; Load the value 22H to register R2 {R2 = 22H}
